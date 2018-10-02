@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SupervisorFX.jnlp">
+  <information>
+    <title>SupervisorFX</title>
+    <vendor>worten</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SupervisorFX.jar" size="8872" download="eager" />
+    <jar href="lib\jpl.jar" size="31599" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="supervisorfx.SupervisorFX"  name="SupervisorFX" />
+  <update check="always"/>
+</jnlp>
